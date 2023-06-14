@@ -182,7 +182,6 @@ header {
 .pro-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(400px, fit-content);
     gap: 30px;
     place-items: center;
     padding: 0 50px;
@@ -196,7 +195,6 @@ header {
 }
 .pro-img {
     width: 100%;
-    height: 1fr;
 }
 .pro-name {
     font-size: 1.2em;
